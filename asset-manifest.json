@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cryptonics/static/css/main.cddb4000.css",
+    "main.js": "/Cryptonics/static/js/main.782533b7.js",
+    "static/media/heroImage.svg": "/Cryptonics/static/media/heroImage.083772fe1c006e0cb537dcd6389a90b5.svg",
+    "index.html": "/Cryptonics/index.html",
+    "static/media/downChevTwo.svg": "/Cryptonics/static/media/downChevTwo.cbc8e416d01155b7d150eb61d47f19c6.svg",
+    "main.cddb4000.css.map": "/Cryptonics/static/css/main.cddb4000.css.map",
+    "main.782533b7.js.map": "/Cryptonics/static/js/main.782533b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cddb4000.css",
+    "static/js/main.782533b7.js"
+  ]
+}
