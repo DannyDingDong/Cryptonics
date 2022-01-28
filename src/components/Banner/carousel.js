@@ -87,7 +87,6 @@ const Carousel = () => {
     },
   };
 
-  console.log(trending);
   return (
     <div className={classes.carousel}>
       <AliceCarousel

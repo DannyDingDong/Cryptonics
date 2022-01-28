@@ -50,6 +50,9 @@ const Homepage = () => {
     },
     heroImageStyle: {
       height: "25rem",
+      [theme.breakpoints.down("sm")]: {
+        width: "20rem",
+      },
     },
     viewChartBtn: {
       position: "absolute",
