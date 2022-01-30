@@ -18,7 +18,7 @@ function App() {
       <div className={classes.App}>
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/cryptonics" element={<HomePage />} />
           <Route path="/coins/:id" element={<CoinPage />} />
         </Routes>
       </div>

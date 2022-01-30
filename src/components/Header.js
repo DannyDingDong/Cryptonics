@@ -43,7 +43,7 @@ const Header = () => {
       <Container>
         <Toolbar>
           <Typography
-            onClick={() => navigate("/")}
+            onClick={() => navigate("Cryptonics")}
             className={customStyles.title}
             variant="h6"
           >
