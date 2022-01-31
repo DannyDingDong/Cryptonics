@@ -4,4 +4,4 @@ Description: Cryptonics is a website deisgned to help users track the prices of 
 
 Feautures: Historical Charts, Trending Coins, Supported world currencies.
 
-Tech: HTML, CSS, JS, ReactJs, ChartJs and MaterialUI.
+Tech: HTML, CSS, JS, ReactJs, ChartJs, Axios and MaterialUI.
