@@ -1,4 +1,10 @@
-import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import HomePage from "./Pages/Homepage";
@@ -14,7 +20,7 @@ const useStyles = makeStyles({
 function App() {
   const classes = useStyles();
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className={classes.App}>
         <Header />
         <Routes>
@@ -22,7 +28,7 @@ function App() {
           <Route path="/coins/:id" element={<CoinPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
